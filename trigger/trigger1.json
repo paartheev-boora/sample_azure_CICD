@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/raw/blobs/atm_transactions/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/ce6686f3-dd0d-4254-8ae7-a0b837c329a4/resourceGroups/parth-dev-rg/providers/Microsoft.Storage/storageAccounts/boorapartheev",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

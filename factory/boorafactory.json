@@ -1,0 +1,9 @@
+{
+	"name": "boorafactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "07fb45e4-03dd-4422-af73-55dd5945adcb",
+		"tenantId": "0499fb24-9553-48fb-b550-b0a31cb69760"
+	}
+}
